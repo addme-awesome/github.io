@@ -29,14 +29,12 @@
 
   <link rel="stylesheet" type="text/css" href="./static/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="./static/slick/slick-theme.css" />
-  <link rel="stylesheet" href="./static/css/tab_gallery.css">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="stylesheet" href="juxtapose/css/juxtapose.css">
 
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
@@ -89,9 +87,6 @@
     </div>
   </nav>
 
-
-
-
   <section class="hero">
     <div class="hero-body">
       <div class="container">
@@ -105,23 +100,23 @@
           
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              John David<sup>1,3</sup>,</span>
+              <a href="https://addme-awesome.github.io/page/">John David</a><sup>1,3</sup>,</span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=ym_t6QYAAAAJ&hl=zh-CN">Maomao Li</a><sup>2</sup>,</span>
+              <a href="https://addme-awesome.github.io/page/">Maomao Li</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://liuyunfei.net/">Yunfei Liu</a><sup>3</sup>,
+              <a href="https://addme-awesome.github.io/page/">Yunfei Liu</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="Ailing Zeng">Ailing Zeng</a><sup>3</sup>,
+              <a href="https://addme-awesome.github.io/page/">Ailing Zeng</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://tianyu-yang.com/">Tianyu Yang</a><sup>3</sup>,
+              <a href="https://addme-awesome.github.io/page/">Tianyu Yang</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              Qin Guo<sup>1</sup>,
+              <a href="https://addme-awesome.github.io/page/">Qin Guo</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://yu-li.github.io/">Yu Li*</a><sup>3</sup>
+              <a href="https://addme-awesome.github.io/page/">Yu Li*</a><sup>3</sup>
             </span>
           </div>
           
@@ -194,66 +189,6 @@
       </div>
     </div>
   </section>
-
-
-
-
-
-  <!--=================Teasers==========================-->
-  <section class="hero is-small">
-    <div class="hero-body">
-      <div class="container is-max-desktop has-text-centered">
-        <!-- The expanding image container -->
-        <!-- <h2 class="title is-3">Text to Image</h2> -->
-        <div class="tab_container">
-          <!-- Close the image -->
-          <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
-          <!-- <div id="juxtapose-embed-text" style="font-size: 1.3rem;font-family:'Lucida Calligraphy', Times, serif;text-align:center">
-            A young man with <strong style="color:#00aaff" ;="">blue eyes</strong> and brown hair
-          </div> -->
-
-
-          <!-- Expanded image -->
-          <!-- <div id="juxtapose-embed" data-startingposition="30%" data-animate="true" class="juxtapose juxtapose-0" style="height: 512px; width: 512px;"><div class="jx-slider"><div class="jx-handle" style="left: 50%;"><div class="jx-arrow jx-left"></div><div class="jx-control"><div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div></div><div class="jx-arrow jx-right"></div></div><div class="jx-image jx-left" style="width: 50%;"><img src="./images/87_(640, 960, 3)_2108_42_1_c.jpg" alt=""><div class="jx-label" tabindex="0">Masked Image</div></div><div class="jx-image jx-right" style="width: 50%;"><img src="./images/87_(640, 960, 3)_2108_42_1_c.jpg" alt=""><div class="jx-label" tabindex="0">Generated Image</div></div><a href="https://juxtapose.knightlab.com/" target="_blank" rel="noopener" class="jx-knightlab"><div class="knightlab-logo"></div><span class="juxtapose-name">JuxtaposeJS</span></a></div></div> -->
-          <div id="juxtapose-embed" data-startingposition="30%" data-animate="true" style="height: 512px; width: 512px; margin: 0 auto;"></div>
-
-          <div>
-            <div id="juxtapose-hidden"></div>
-          </div>
-          
-          <!-- Image text -->
-          <div id="imgtext"></div>
-        </div>
-
-        <!-- The grid: four columns -->
-        <div class="tab_row">
-          <div class="tab_column">
-            <img src="./images/1.jpg" onclick="tab_gallery_click('1');">
-          </div>
-          <div class="tab_column">
-            <img src="./images/2.jpg" onclick="tab_gallery_click('2');">
-          </div>
-          <div class="tab_column">
-            <img src="./images/3.jpg" onclick="tab_gallery_click('3');">
-          </div>
-          <div class="tab_column">
-            <img src="./images/4.jpg" onclick="tab_gallery_click('4');">
-          </div>
-          <div class="tab_column">
-            <img src="./images/5.jpg" onclick="tab_gallery_click('5');">
-          </div>
-
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            <strong style="color:#00aaff" ;="">AddMe</strong>, allows for the insertion of customized portraits into any scene. <strong>You can drag the white line to see images before and after insertion.</strong> Left: Masked Image. Right: Generated Image.
-        </p></div>
-      </div>
-    </div>
-  </section>
-
-
-
 
 
   <section class="hero teaser">
@@ -535,105 +470,6 @@
   </footer>
 
   <script type="text/javascript" src="./static/slick/slick.js"></script>
-
-
-
-<script src="juxtapose/js/juxtapose.js"></script>
-
-<script>
-  var slider;
-  let origImages = [
-    { "src": "./images/edit_1.jpg", "label": "Masked Image", },
-    { "src": "./images/gt_1.jpg", "label": "Generated Image", }
-  ];
-  let origOptions = {
-    "makeResponsive": true,
-    "showLabels": true,
-    "mode": "horizontal",
-    "showCredits": true,
-    "animate": true,
-    "startingPosition": "50"
-  };
-
-  const juxtaposeSelector = "#juxtapose-embed";
-  const transientSelector = "#juxtapose-hidden";
-
-  
-  function tab_gallery_click(name) {
-    // Get the expanded image
-    let inputImage = {
-      label: "Masked Image",
-    };
-    let outputImage = {
-      label: "Generated Image",
-    };
-
-    inputImage.src = "./images/".concat("edit_",name, ".jpg")
-    outputImage.src = "./images/".concat("gt_",name, ".jpg")
-
-
-    let images = [inputImage, outputImage];
-    let options = slider.options;
-    options.callback = function (obj) {
-      var newNode = document.getElementById(obj.selector.substring(1));
-      var oldNode = document.getElementById(juxtaposeSelector.substring(1));
-      
-      console.log(obj.selector.substring(1));
-      console.log(newNode.children[0]);
-      oldNode.replaceChild(newNode.children[0], oldNode.children[0]);
-      //newNode.removeChild(newNode.children[0]);
-
-    };
-
-    slider = new juxtapose.JXSlider(transientSelector, images, options);
-  };
-
-  (function () {
-    slider = new juxtapose.JXSlider(
-      juxtaposeSelector, origImages, origOptions);
-    //document.getElementById("left-button").onclick = replaceLeft;
-    //document.getElementById("right-button").onclick = replaceRight;
-  })();
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  // expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = name;
-  // Show the container element (hidden with CSS)
-  // expandImg.parentElement.style.display = "block";
-
-  $(".flip-card").click(function () {
-    console.log("fading in")
-    div_back = $(this).children().children()[1]
-    div_front = $(this).children().children()[0]
-    // console.log($(this).children("div.flip-card-back"))
-    console.log(div_back)
-    $(div_front).addClass("out");
-    $(div_front).removeClass("in");
-
-    $(div_back).addClass("in");
-    $(div_back).removeClass("out");
-
-  });
-
-  $(".flip-card").mouseleave(function () {
-    console.log("fading in")
-    div_back = $(this).children().children()[1]
-    div_front = $(this).children().children()[0]
-    // console.log($(this).children("div.flip-card-back"))
-    console.log(div_back)
-    $(div_front).addClass("in");
-    $(div_front).removeClass("out");
-
-    $(div_back).addClass("out");
-    $(div_back).removeClass("in");
-
-  });
-</script>
-
-
-
 </body>
 
 </html>
